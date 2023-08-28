@@ -263,7 +263,6 @@ img {
   /* Box model */
   display: flex;
   gap: 24px;
-  margin-bottom: 8px;
 }
 
 .features-icons-item {
@@ -272,11 +271,13 @@ img {
 }
 
 .features-icon-container {
+  /* Box model */
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 
   /* Visual */
   border: 1px solid var(--lightslate);
