@@ -160,7 +160,7 @@ img {
 .title-section {
   /* Box model */
   padding: 188px 0;
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   /* Visual */
   background-color: var(--accent-grey-color);
