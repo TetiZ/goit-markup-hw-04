@@ -455,6 +455,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-footer-container {
@@ -499,14 +500,9 @@ img {
   font-weight: 500;
 }
 
-.sm-footer-text:first-letter {
-  text-transform: uppercase;
-}
-
 .sm-footer-list {
   display: flex;
   gap: 16px;
-  align-items: baseline;
 }
 
 .sm-footer-link {
