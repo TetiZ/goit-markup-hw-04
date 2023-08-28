@@ -245,7 +245,7 @@ img {
   border: none;
 
   /* Transition */
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
