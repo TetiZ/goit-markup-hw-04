@@ -447,7 +447,7 @@ img {
   border-top: none;
 }
 
-.overlay {
+.overlay-text {
   position: absolute;
   margin: 0;
   top: 0;
@@ -466,9 +466,6 @@ img {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.overlay-text {
   /* Typography */
   color: var(--cloud);
   text-align: justify;
@@ -480,7 +477,7 @@ img {
   overflow: hidden;
 }
 
-.portfolio-list-item:hover .overlay {
+.portfolio-list-item:hover .overlay-text {
   transform: translateY(0);
 }
 
