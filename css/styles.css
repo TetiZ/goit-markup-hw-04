@@ -480,9 +480,8 @@ img {
   overflow: hidden;
 }
 
-.portfolio-img:hover .overlay {
+.portfolio-list-item:hover .overlay {
   transform: translateY(0);
-  z-index: 1;
 }
 
 .portfolio-elements-title {
