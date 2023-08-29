@@ -423,10 +423,6 @@ img {
   /* Box model */
   width: calc((100% - 48px) / 3);
 
-  /* Overlay */
-  position: relative;
-  overflow: hidden;
-
   /* Transition */
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -478,7 +474,13 @@ img {
   text-align: justify;
 }
 
-.portfolio-list-item:hover .overlay {
+.portfolio-img {
+  /* Overlay */
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-img:hover .overlay {
   transform: translateY(0);
   z-index: 1;
 }
